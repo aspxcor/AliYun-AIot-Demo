@@ -1,11 +1,11 @@
 REQUIRE("Arduino MEGA 2560");
 int port = 12353;
-char serverName[] = "tinylink.cn";
-char clientName[] = "zztest";
-char userName[] = "zztest";
-char password[] = "zztest";
-char SSID[] = "AZFT";
-char Pass[] = "AZFT123456";
+char serverName[] = ****PLEASE REPLACE WITH YOUR SERVER NAME****;;
+char clientName[] = ****PLEASE REPLACE WITH YOUR CLIENT NAME****;;
+char userName[] = ****PLEASE REPLACE WITH YOUR USERNAME****;;
+char password[] = ****PLEASE REPLACE WITH YOUR PASSWORD****;;
+char SSID[] = ****PLEASE REPLACE WITH YOUR SSID****;;
+char Pass[] = ****PLEASE REPLACE WITH YOUR PASSWORD****;;
 // fills your mqtt topic
 char topicName[] = "judge/dca7";
 //以上根据题意将与题目有关的相关信息存入不同变量中
