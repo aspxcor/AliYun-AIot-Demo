@@ -5,11 +5,11 @@ char SSID[] = "AZFT";
 char Pass[] = "AZFT123456";
 int port = 1883;
 // fills your Aliyun info
-char serverName[] = "a1uw222JO83.iot-as-mqtt.cn-shanghai.aliyuncs.com";
-char clientName[] = "FESA234FBDS24|securemode=3,signmethod=hmacsha1,timestamp=789|";
-char topicName[] = "/sys/a1uw222JO83/OTyeaUft3q5f5q12LAZi/thing/event/property/post";
-char userName[] = "OTyeaUft3q5f5q12LAZi&a1uw222JO83";
-char password[] = "e8b8a93d7db68516c6afacde2243e4413be70a21";
+char serverName[] = ****PLEASE REPLACE WITH YOUR SERVER NAME****;
+char clientName[] = ****PLEASE REPLACE WITH YOUR CLIENT NAME****;
+char topicName[] = ****PLEASE REPLACE WITH YOUR TOPIC NAME****;
+char userName[] = ****PLEASE REPLACE WITH YOUR USER NAME****;
+char password[] = ****PLEASE REPLACE WITH YOUR PASSWORD****;
 // 根据技小新对阿里云激活凭证的计算结果填写信息，用于mqtt通信
 void setup()
 {
